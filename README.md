@@ -138,3 +138,25 @@ retention_base_table.csv
 
 ---
 
+# Day 4- Cohort Retention matrix & Heatmap
+
+## Cohort Retention Matrix Completed
+
+## Tasks Performed
+
+- Created Retention Count Matrix
+- Created Retention Percentage Matrix
+- Generated Cohort Retention Heatmap
+- Calculated Average Retention Trends
+- Exported Retention Analysis Outputs
+
+## Deliverables
+
+- retention_count_matrix.csv
+- retention_percentage_matrix.csv
+- retention_heatmap.png
+
+These outputs reveal customer retention behavior over time and identify churn patterns across acquisition cohorts.
+
+---
+
