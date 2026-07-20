@@ -325,3 +325,107 @@ Successfully calculated Customer Lifetime Value (CLTV) for all customers and seg
 
 ### Deliverables Created
 - customer_cltv_segments.csv
+
+---
+
+# Day 7- CLTV_Visualization And Business Insights
+## Customer Lifetime Value (CLTV) Analysis & Segmentation
+
+## Objective
+Calculate Customer Lifetime Value (CLTV) for each customer and segment customers into different value groups based on their purchasing behavior.
+
+## Dataset Used
+cltv_base_data.csv
+
+Shape:
+- Rows: 779,425
+- Columns: 16
+
+## Steps Performed
+
+### 1. Loaded CLTV Base Dataset
+- Imported processed dataset.
+- Verified shape, columns and missing values.
+
+### 2. Customer Level Aggregation
+Calculated:
+- Total Revenue
+- Total Orders
+
+for each customer.
+
+### 3. Average Order Value (AOV)
+Calculated:
+
+AOV = Revenue / Total Orders
+
+to measure customer spending behavior.
+
+### 4. CLTV Calculation
+Created a simplified CLTV metric using:
+
+CLTV = AOV × Total Orders × Average Purchase Frequency
+
+### 5. CLTV Segmentation
+Customers were divided into:
+
+- Segment A (Highest Value)
+- Segment B
+- Segment C
+- Segment D (Lowest Value)
+
+using quartile-based segmentation.
+
+### 6. Segment Performance Analysis
+Analyzed:
+
+- Revenue Contribution
+- Average Orders
+- Average AOV
+- Average CLTV
+
+for each segment.
+
+### 7. Pareto Analysis
+Validated the 80/20 principle.
+
+Key Finding:
+Approximately 23% of customers generated nearly 80% of total revenue.
+
+### 8. Customer Strategy Recommendations
+Created business recommendations for:
+
+- Retain Segment A
+- Upsell Segment B
+- Engage Segment C
+- Reactivate Segment D
+
+### 9. Visualizations Created
+- Revenue Contribution by Segment
+- Customer Distribution by Segment
+- CLTV Distribution
+- Revenue Share Analysis
+- Pareto Analysis
+
+### 10. Exported Files
+Saved:
+
+- customer_cltv_segments.csv
+- segment_summary.csv
+- pareto_analysis.csv
+
+for Power BI dashboard development.
+
+## Key Findings
+
+- Segment A generated over 65% of total revenue.
+- Average CLTV across customers was approximately 4,898.
+- Top customers contributed disproportionately to revenue.
+- Around 23% of customers generated nearly 80% of revenue.
+
+## Outcome
+
+Successfully built a customer segmentation framework using CLTV analysis that can support retention, upselling, and targeted marketing strategies.
+
+---
+
