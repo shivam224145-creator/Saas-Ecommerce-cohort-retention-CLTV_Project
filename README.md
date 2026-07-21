@@ -429,3 +429,141 @@ Successfully built a customer segmentation framework using CLTV analysis that ca
 
 ---
 
+# Day 8 :- Customer Segmentation Analysis & Business Insights
+
+## Objective
+The objective of this notebook is to analyze Customer Lifetime Value (CLTV) segments, evaluate customer contribution to revenue, identify high-value customers, perform Pareto Analysis, and generate business recommendations for customer retention and growth strategies.
+
+## Dataset Used
+**File:** customer_cltv_segments.csv
+
+This dataset contains:
+- Customer ID
+- Revenue
+- Total Orders
+- Average Order Value (AOV)
+- Customer Lifetime Value (CLTV)
+- CLTV Segment
+
+## Step 1: Load Customer CLTV Dataset
+
+- Imported required libraries
+- Loaded customer_cltv_segments.csv
+- Verified dataset shape, columns, data types, and missing values
+
+### Validation Checks
+- Dataset loaded successfully
+- No missing values detected
+- Customer count verified
+
+## Step 2: Segment Performance Analysis
+
+Analyzed CLTV segments:
+
+- Segment A
+- Segment B
+- Segment C
+- Segment D
+
+Calculated:
+
+- Average Revenue
+- Average Orders
+- Average AOV
+- Average CLTV
+
+### Key Observation
+Segment A customers generated the highest revenue and CLTV values.
+
+## Step 3: Revenue Contribution Analysis
+
+Calculated:
+
+- Total Revenue by Segment
+- Revenue Contribution Percentage
+
+### Findings
+
+| Segment | Revenue Contribution |
+|----------|----------|
+| A | 65.18% |
+| B | 19.55% |
+| C | 10.84% |
+| D | 4.43% |
+
+Segment A contributes the majority of business revenue.
+
+## Step 4: CLTV Contribution Analysis
+
+Calculated:
+
+- Total CLTV by Segment
+- Average CLTV by Segment
+
+### Finding
+
+Segment A customers have significantly higher lifetime value compared to other segments.
+
+## Step 5: Pareto Analysis (80/20 Principle)
+
+Performed Pareto Analysis to identify customers responsible for the majority of revenue.
+
+Calculated:
+
+- Cumulative Revenue
+- Cumulative Revenue Percentage
+
+### Key Insight
+
+A relatively small percentage of customers contributes a large share of total revenue.
+
+## Step 6: Top Customers Identification
+
+Identified top customers based on:
+
+- Revenue
+- CLTV
+
+Generated Top 10 customer list for business targeting.
+
+## Step 7: Executive Summary
+
+Created management-level KPI summary including:
+
+- Total Customers
+- Total Revenue
+- Average Revenue
+- Average CLTV
+- Top Performing Segment
+
+## Step 8: Business Recommendations
+
+Generated segment-wise recommendations:
+
+### Segment A
+Retain and reward high-value customers.
+
+### Segment B
+Upsell and cross-sell premium products.
+
+### Segment C
+Increase engagement through campaigns.
+
+### Segment D
+Run reactivation and retention campaigns.
+
+## Step 9: Data Export
+
+Exported final dashboard-ready datasets:
+
+- executive_summary.csv
+- business_recommendations.csv
+
+These files will be used in the Power BI dashboard phase.
+
+## Conclusion
+
+Successfully completed customer segmentation analysis, revenue contribution analysis, Pareto analysis, executive KPI generation, and business recommendations. The exported datasets are now ready for dashboard development and business reporting.
+
+---
+
