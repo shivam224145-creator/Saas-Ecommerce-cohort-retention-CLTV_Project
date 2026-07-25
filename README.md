@@ -824,3 +824,68 @@ Successfully completed the first Power BI Executive Dashboard, providing a profe
 
 ---
 
+# Day 12 - Power BI Dashboard 2: Customer Segmentation Analysis
+
+## Objective
+Built the second interactive Power BI dashboard focused on Customer Lifetime Value (CLTV) based customer segmentation. The dashboard helps identify premium customers, revenue contribution, average customer value, and business growth opportunities across different customer segments.
+
+## Dataset Used
+
+- customer_cltv_segments.csv
+
+## Dashboard Created
+
+### Page Name
+Customer Segmentation Analysis
+
+## KPI Cards
+
+- Top Performing Segment
+- Average Revenue
+- Total Customers
+- Average CLTV
+- Average Orders
+
+## Interactive Slicers
+
+- CLTV Segment
+- Customer ID
+- Revenue
+
+## Visualizations
+
+### Revenue by Customer Segment
+- Clustered Column Chart
+- Revenue comparison across A, B, C and D segments
+
+### Revenue vs Average Orders
+- Line and Clustered Column Chart
+- Revenue (Column)
+- Average Orders (Line)
+
+### Average CLTV by Segment
+- Horizontal Bar Chart
+- Average CLTV comparison across customer segments
+
+### Customer Distribution by Segment
+- Donut Chart
+- Customer percentage distribution among segments
+
+## Business Insights
+
+- Segment A generates the highest revenue and CLTV.
+- Segment B has strong upsell potential.
+- Segment C represents future growth opportunities.
+- Segment D requires customer reactivation strategies.
+- Customer distribution remains nearly equal across all segments while value contribution differs significantly.
+
+## Deliverables
+
+- Power BI Dashboard Page 2 completed
+- Interactive filters implemented
+- KPI cards configured
+- Business-ready visualizations created
+- Dashboard validated with expected outputs
+
+---
+
