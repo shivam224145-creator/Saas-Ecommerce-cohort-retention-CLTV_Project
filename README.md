@@ -889,3 +889,43 @@ Customer Segmentation Analysis
 
 ---
 
+# Day 13 :- Dashboard 3 - Cohort Retention Analysis (Phase 1)
+
+##  Objective
+Build the foundation of the Customer Cohort Retention Dashboard in Power BI by presenting key retention KPIs, an interactive cohort heatmap, and filtering capabilities for retention analysis.
+
+##  Work Completed
+
+### Created KPI Cards
+- Total Cohorts
+- Month 1 Retention
+- Average Retention
+- Latest Cohort
+- Highest Month 2 Retention
+
+### Built Customer Cohort Retention Heatmap
+- Added CohortMonth as Rows
+- Added Monthly Retention (%) as Values
+- Applied Gradient Conditional Formatting
+- Highlighted retention performance across customer cohorts
+- Improved readability with professional formatting
+
+### Added Interactive Filter
+- Added CohortMonth slicer
+- Enabled cohort-level filtering across the dashboard
+
+## Dashboard Outcome
+- Executive-level KPI overview
+- Professional Cohort Retention Heatmap
+- Interactive filtering using CohortMonth
+- Strong foundation prepared for advanced retention trend analysis
+
+## Next Steps
+- Convert Retention Matrix into Long Format using Python
+- Create Retention Trend Dashboard
+- Build Average Retention Trend Visuals
+- Add Cohort Comparison Charts
+- Complete Dashboard 3 with advanced business insights
+
+---
+
