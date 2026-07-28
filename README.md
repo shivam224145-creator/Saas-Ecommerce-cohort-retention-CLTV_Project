@@ -929,3 +929,65 @@ Build the foundation of the Customer Cohort Retention Dashboard in Power BI by p
 
 ---
 
+# Day- 15 :-  Retention Matrix Transformation for Power BI
+
+## Objective
+Transform the Cohort Retention Matrix from Wide Format into Long Format to support advanced Power BI visualizations and interactive retention analysis.
+
+## Input Dataset
+- retention_percentage_matrix.csv
+
+## Work Completed
+
+### Loaded Processed Retention Matrix
+- Imported the final retention percentage matrix from the processed data folder.
+- Verified dataset structure, columns, and dimensions.
+
+### Performed Dataset Validation
+- Checked dataset shape
+- Reviewed data types
+- Identified missing values
+- Confirmed duplicate records
+
+### Converted Wide Format to Long Format
+- Used the `pandas.melt()` function to normalize the retention matrix.
+- Created a row-wise dataset suitable for Power BI visualizations.
+
+### Optimized Data Structure
+- Converted `RetentionMonth` to Integer.
+- Sorted retention months numerically.
+- Improved dataset readability and analytical consistency.
+
+### Cleaned Dataset
+- Removed rows containing missing retention values.
+- Reset row indexes after cleaning.
+
+### Final Validation
+- Verified final dataset shape.
+- Confirmed zero missing values.
+- Confirmed zero duplicate records.
+- Cross-checked all data types.
+
+### Exported Final Dataset
+Generated a new processed dataset:
+
+- retention_long_format.csv
+
+## Final Output
+Created a Power BI-ready long-format retention dataset with:
+
+- CohortMonth
+- RetentionMonth
+- RetentionRate
+
+This normalized structure enables advanced retention trend analysis, cohort comparison, interactive filtering, and professional business dashboards.
+
+##  Next Steps
+- Import `retention_long_format.csv` into Power BI.
+- Build Retention Trend Analysis.
+- Create Cohort Comparison Visuals.
+- Design advanced interactive Dashboard 3.
+- Complete the final Power BI dashboard for the project.
+
+---
+
