@@ -991,3 +991,62 @@ This normalized structure enables advanced retention trend analysis, cohort comp
 
 ---
 
+# Day 16 :-  Dashboard 3 – Customer Cohort Retention Analysis [completed]
+
+## Objective
+Develop an interactive Customer Cohort Retention Dashboard in Power BI to analyze customer retention trends across different acquisition cohorts and evaluate long-term customer engagement.
+
+## Dataset Used
+- retention_long_format.csv
+
+## Work Completed
+
+### Imported Processed Dataset
+- Loaded the normalized retention dataset into Power BI.
+- Verified data types and record count.
+- Integrated the dataset into the existing project model.
+
+### Existing Dashboard Components
+Validated and finalized the previously created dashboard elements:
+
+- Total Cohorts KPI
+- Month 1 Retention KPI
+- Average Retention KPI
+- Latest Cohort KPI
+- Highest Month 2 Retention KPI
+- Customer Cohort Retention Heatmap
+- Cohort Month Slicer
+
+### Added Remaining Interactive Visuals
+
+####  Average Retention Trend by Month
+- Created a Line Chart to visualize how customer retention changes over time.
+- Used Average Retention Rate across retention months.
+
+#### Average Customer Retention by Cohort
+- Built a Clustered Bar Chart to compare retention performance across acquisition cohorts.
+- Sorted cohorts based on average retention.
+
+#### Cohorts by Average Retention
+- Created a Clustered Column Chart with Top N filtering.
+- Highlighted the highest-performing customer cohorts.
+
+## Dashboard Features
+
+- Executive KPI Summary
+- Interactive Cohort Filtering
+- Customer Retention Heatmap
+- Retention Trend Analysis
+- Cohort Performance Comparison
+- Top Performing Cohorts Analysis
+
+## Business Insights
+
+- Month 1 retention remains at 100% across all cohorts.
+- Customer retention gradually decreases in later months.
+- Some acquisition cohorts consistently outperform others.
+- Cohort-level analysis helps identify long-term customer loyalty patterns.
+- Interactive filtering enables focused cohort exploration.
+
+---
+
