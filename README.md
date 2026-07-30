@@ -1050,3 +1050,94 @@ Validated and finalized the previously created dashboard elements:
 
 ---
 
+# Day 17 – Business Insights & Strategic Recommendations Dashboard (Dashboard 4)
+
+## Objective
+Completed the final Power BI dashboard focused on business insights, customer retention strategies, CLTV analysis, and executive-level recommendations.
+
+## Dashboard Completed
+**Business Insights & Strategic Recommendations Dashboard**
+
+## KPI Cards
+- Total Customer Segments
+- Top Customer Segment
+- Maximum CLTV
+- Maximum Revenue
+- Total Cohorts
+
+## Interactive Slicer
+- CLTV Segment (A, B, C, D)
+
+## Visualizations Created
+
+### 1. Customer Cohort Retention Heatmap
+- Visualized monthly cohort retention percentages.
+- Applied conditional formatting for quick churn pattern identification.
+
+### 2. Strategic Business Recommendations
+- Displayed actionable recommendations for each customer segment.
+
+### 3. Business Story Summary
+- Presented Revenue %, CLTV %, Total Orders, and Segment-wise business insights.
+
+### 4. Customer Action Plan
+- Compared CLTV contribution across customer segments.
+- Highlighted priority segments for growth and retention strategies.
+
+## Business Insights
+- Segment A contributes the highest customer lifetime value.
+- Segment B shows strong upselling opportunities.
+- Segment C represents future growth potential.
+- Segment D requires customer reactivation campaigns.
+- Cohort heatmap highlights retention decline over time.
+
+## Power BI Features Used
+- Cards
+- Matrix Visual
+- Table Visual
+- Clustered Bar Chart
+- Slicer
+- Conditional Formatting
+- Custom Dashboard Layout
+- Interactive Filtering
+
+## Project Status
+
+✔ Executive Overview Dashboard
+
+✔ Customer CLTV Analysis Dashboard
+
+✔ Customer Segmentation Dashboard
+
+✔ Retention Cohort Analysis Dashboard
+
+✔ Business Insights & Strategic Recommendations Dashboard
+
+## Overall Project Status
+
+Python 
+
+Data Cleaning 
+
+Feature Engineering 
+
+Cohort Analysis 
+
+CLTV Analysis 
+
+Customer Segmentation 
+
+Business Recommendations 
+
+Power BI Dashboard 
+
+Project Documentation 
+
+GitHub Ready 
+
+LinkedIn Ready 
+
+# Project Successfully Completed 
+
+---
+
